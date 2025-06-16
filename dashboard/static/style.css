@@ -1,0 +1,53 @@
+/* Make title larger and custom font */
+h1 {
+    font-size: 2.5rem;
+    color: #4CAF50; /* Green accent */
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom: 1rem;
+}
+
+/* Style buttons in forms */
+button[kind="primary"] {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+/* Form input fields */
+input[type="text"], select, input[type="date"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table thead th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem;
+}
+
+table tbody td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Expander style */
+.css-1v0mbdj .stExpanderHeader {
+    background-color: #e8f5e9;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
